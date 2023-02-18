@@ -33,8 +33,7 @@ import {ApplicationInsights} from '@microsoft/applicationinsights-web';
 const appInsights = new ApplicationInsights({
   config: {
     connectionString:
-      'InstrumentationKey=d0405c03-1431-4d5e-b197-6e3e4b8eb72e;IngestionEndpoint=https://westus2-2.in.applicationinsights.azure.com/;LiveEndpoint=https://westus2.livediagnostics.monitor.azure.com/',
-    /* ...Other Configuration Options... */
+      'InstrumentationKey=c2871300-b9b6-48ca-8ee0-b37f1f26af58;IngestionEndpoint=https://uksouth-1.in.applicationinsights.azure.com/;LiveEndpoint=https://uksouth.livediagnostics.monitor.azure.com/',
   },
 });
 
